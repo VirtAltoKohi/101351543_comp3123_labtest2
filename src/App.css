@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin: 20px;
+  color: white;
 }
 
 .App-logo {
@@ -13,26 +15,44 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-content {
+  width: 1024px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: rgba(26, 56, 94, 80%);
+  border-radius: 32px;
 }
 
-.App-link {
-  color: #61dafb;
+.current-temp {
+  background-color: rgb(93, 129, 158);;
+  border-radius: 32px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.current-info {
+  margin: 48px 8px 32px 16px;
 }
+
+.SevenDayForecast {
+  background-color: rgb(93, 129, 158);
+  border-radius: 32px;
+}
+
+h2 {
+  margin: 0;
+}
+
+body {
+  background: url('https://res.cloudinary.com/jnto/image/upload/w_750,h_503,fl_lossy,f_auto/v1531981666/fujiguide/SG010_6') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+li {
+  list-style-type: none;
+}
+
