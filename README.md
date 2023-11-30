@@ -4,10 +4,10 @@ A simple React weather app that displays current temperature and a 7-day forecas
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot_1.png)
+![Screenshot 1](screenshots/Screenshot_1.png)
 *Caption for Screenshot 1*
 
-![Screenshot 2](screenshots/screenshot_2.png)
+![Screenshot 2](screenshots/Screenshot_2.png)
 *Caption for Screenshot 2*
 
 ## Features
